@@ -6,10 +6,11 @@ Site em desenvolvimento com as tecnologias React JS, Gatsby e GraphyQL
 
 Tecnologia | Descrição | Versão | Site
 ------------ | ------------- | ------------ | ------------
-React JS | Uma biblioteca JavaScript para criar interfaces de usuário | v16.13.0 | https://pt-br.reactjs.org/
+Gatsby | The static dynamic site generator for dynamic web developers | v3.8.1 | https://www.gatsbyjs.com/
+React | Uma biblioteca JavaScript para criar interfaces de usuário | v17.0.1 | https://pt-br.reactjs.org/
 React Router DOM | DOM bindings for React Router | v5.2.0 | https://yarnpkg.com/package/react-router-dom
 React Icons | Include popular icons in your React projects easily with react-icons | v4.2.0 | https://react-icons.github.io/react-icons/
-
+Styled Components | Styles in JavaScript with superpowers | v5.3.0 | https://styled-components.com/
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
