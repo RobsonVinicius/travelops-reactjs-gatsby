@@ -29,7 +29,7 @@ const Header = () => {
 export default Header
 
 const Nav = styled(Link) `
-  background: #1b0088;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
