@@ -13,7 +13,7 @@ const Hero = () => {
         <HeroItems>
           <HeroH1>Unreal Destinations</HeroH1>
           <HeroP>Out of this world</HeroP>
-          <Button primary big round to="/trips">Travel Now</Button>
+          <Button primary big round to="/trips"><ModBtn>Travel Now</ModBtn></Button>
         </HeroItems>
       </HeroContent>
     </HeroContainer>    
@@ -87,7 +87,7 @@ const HeroItems = styled.div `
 
 const HeroH1 = styled.h1 `
   font-size: clamp(1.5rem, 6vw, 4rem);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 3px;
   font-weight: bold;
   padding: 0 1rem;  
@@ -96,5 +96,9 @@ const HeroH1 = styled.h1 `
 const HeroP = styled.p `
   font-size: clamp(1rem, 3vw, 3rem);
   margin-bottom: 2rem;
-  font-weight: 400;
+  font-weight: 400;  
+`
+
+const ModBtn = styled.span `
+  letter-spacing: 2px;
 `

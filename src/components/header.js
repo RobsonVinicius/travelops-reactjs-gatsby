@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { IconContext } from 'react-icons'
+import { IoAirplane } from 'react-icons/io5'
 import { FaBars } from 'react-icons/fa'
 import { menuData } from '../data/MenuData'
 import { Button } from "./Button"
@@ -9,7 +11,10 @@ const Header = () => {
   return (
     <Nav>
       <NavLink to="/">
-        TRAVELOPS
+        <IconContext.Provider value={{color: '#fff', size: 20}}>
+          <IoAirplane />
+        </IconContext.Provider>
+        <Logo>TravelOps</Logo>
       </NavLink>
       <Bars />
       <NavMenu>
@@ -38,14 +43,20 @@ const Nav = styled(Link) `
   position: relative;  
 `
 
+const Logo = styled.span `  
+  font-size: 1.45rem;
+  padding-left: .5rem
+`
+
 const NavLink = styled(Link) `
   color: #fff;
-  display: flex;
+  display: flex;  
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-size: 1.1rem;
 `
 
 const Bars = styled(FaBars) `
