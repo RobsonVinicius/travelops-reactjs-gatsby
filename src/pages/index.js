@@ -1,4 +1,5 @@
 import * as React from "react"
+import Email from "../components/Email"
 import Hero from "../components/Hero"
 // import { StaticImage } from "gatsby-plugin-image"
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Trips heading="Our Favorite Destionations" />
     <Testimonials />
     <Stats />
+    <Email />
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
