@@ -16,7 +16,7 @@ const IndexPage = () => (
     <Trips heading="Our Favorite Destionations" />
     <Testimonials />
     <Stats />
-    <Email />
+    <Email />    
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
