@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io'
 import { FaRegLightbulb } from 'react-icons/fa'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from 'gatsby'
 
 const Testimonials = () => {
   const data = useStaticQuery(graphql `

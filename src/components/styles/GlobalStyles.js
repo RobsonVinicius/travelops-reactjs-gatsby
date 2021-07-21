@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import "@fontsource/kanit"
+import '@fontsource/kanit'
 
 export const GlobalStyle = createGlobalStyle `
   * {

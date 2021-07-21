@@ -1,6 +1,6 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
+import React from 'react'
+import { Link } from 'gatsby'
+import styled from 'styled-components'
 import { IconContext } from 'react-icons'
 import { IoAirplane } from 'react-icons/io5'
 import { FaBars } from 'react-icons/fa'
