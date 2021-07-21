@@ -5,9 +5,9 @@ import { IconContext } from 'react-icons'
 import { IoAirplane } from 'react-icons/io5'
 import { FaBars } from 'react-icons/fa'
 import { menuData } from '../data/MenuData'
-import { Button } from "./Button"
+import { Button } from './Button'
 
-const Header = () => {
+const Navbar = () => {
   return (
     <Nav>
       <NavLink to="/">
@@ -31,7 +31,7 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navbar
 
 const Nav = styled(Link) `
   background: transparent;

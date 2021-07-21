@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
-import Header from './Header'
+import Navbar from './Nav'
 import { GlobalStyle } from './styles/GlobalStyles'
 
 
@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      <Navbar />
       <main>{children}</main>       
       <Footer />
     </>
