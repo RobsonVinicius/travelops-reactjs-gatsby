@@ -12,6 +12,10 @@ React Router DOM | DOM bindings for React Router | v5.2.0 | https://yarnpkg.com/
 React Icons | Include popular icons in your React projects easily with react-icons | v4.2.0 | https://react-icons.github.io/react-icons/
 Styled Components | Styles in JavaScript with superpowers | v5.3.0 | https://styled-components.com/
 Font Source/kanit | Self-host Google Fonts with Fontsource |  v4.5.0 | https://www.gatsbyjs.com/docs/how-to/styling/using-web-fonts/#self-host-google-fonts-with-fontsource <br/> https://github.com/fontsource/fontsource/tree/main/packages
+
+
+<br><br>
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
