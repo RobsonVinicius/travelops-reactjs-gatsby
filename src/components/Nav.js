@@ -45,7 +45,7 @@ const Nav = styled(Link) `
 
 const Logo = styled.span `  
   font-size: 1.45rem;
-  padding-left: .5rem
+  padding-left: .5rem;
 `
 
 const NavLink = styled(Link) `
@@ -57,6 +57,11 @@ const NavLink = styled(Link) `
   height: 100%;
   cursor: pointer;
   font-size: 1.1rem;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    color: #f3a82e
+  }
 `
 
 const Bars = styled(FaBars) `
